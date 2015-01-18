@@ -25,7 +25,7 @@ subject
 
 =====================================================================================
 Mnemonics for other variables in the dataset are a composite of several components:
-  <Domain><Acceleration><Gauge><Statistic><Jerk Signal?><Magnitude 3D signals?><Axis>
+  Domain/Acceleration/Gauge/Statistic/Jerk Signal?/Magnitude 3D signals?/Axis
 =====================================================================================
 
   where the allowable values for each component are:
