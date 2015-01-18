@@ -11,8 +11,8 @@ activity
   recorded measurements.  
 
   Value labels are:
-	1 WALKING
-	2 WALKING_UPSTAIRS
+  1 WALKING
+  2 WALKING_UPSTAIRS
   3 WALKING_DOWNSTAIRS
   4 SITTING
   5 STANDING
@@ -29,31 +29,31 @@ Mnemonics for other variables in the dataset are a composite of several componen
 =====================================================================================
 
   where the allowable values for each component are:
-    <domain>  Time or Frequency Domain
+    /domain  Time or Frequency Domain
       t for time
       f for frequency
 
-    <acceleration> Type of acceleration signal measured    
+    /acceleration Type of acceleration signal measured    
       Body acceleration signal
       Gravity acceleration signal
   
-    <gauge> Type of smartphone gauge used to gather data
+    /gauge Type of smartphone gauge used to gather data
       Acc for accelerometer
       Gyro for gyroscope
 
-    <Statistic> Type of statistic reported
+    /Statistic Type of statistic reported
       mean for mean across observations
       std for standard deviation across observations
 
-    <Jerk Signal?>  Indicator for Jerk Signals
+    /Jerk Signal?  Indicator for Jerk Signals
       Jerk for  metrics where body linear acceleration and angular velocity were     
                 derived in time to obtain Jerk signals
 
-    <Magnitude 3D signals?> Indicator for Magnitude metrics
+    /Magnitude 3D signals? Indicator for Magnitude metrics
       Mag for metrics where the magnitude of the three-dimensional 
                             signals were calculated using the Euclidean norm
 
-    <Axis> Axis of measurement
+    /Axis Axis of measurement
       X for x-axis
       Y for y-axis
       Z for z-axis
