@@ -1,17 +1,6 @@
 # PROJECT TO PROCESS SMARTPHONE DATA
 # CREATED 2015-01-18
 
-====================================================
-Human Activity Recognition Using Smartphones Dataset
-====================================================
-Version 1.0
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
-
 =========================================
 The project includes the following files:
 =========================================
@@ -24,6 +13,17 @@ The project includes the following files:
 
 The included '/UCI HAR Dataset' folder contains the raw data and supporting files for the project.
 
+====================================================
+Source Data
+====================================================
+Human Activity Recognition Using Smartphones Dataset
+Version 1.0
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
 
 ===============================================================================
 Details of the experiment and input data set are reproduced below for reference
