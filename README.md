@@ -11,7 +11,7 @@ BY wayofpeace@github.com
     ==================================================================
     Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
     Smartlab - Non Linear Complex Systems Laboratory
-    DITEN - Universit‡ degli Studi di Genova.
+    DITEN - Universit√† degli Studi di Genova.
     Via Opera Pia 11A, I-16145, Genoa, Italy.
     activityrecognition@smartlab.ws
     www.smartlab.ws
@@ -23,7 +23,7 @@ The project includes the following files:
 
 - 'run_analysis.R": Processes the data provided in test and training data sets.  
 - 'CODEBOOK.txt': Codebook for the variables in the processed data set created.
-- 'README.txt': Provides an overview for all files included in the project
+- 'README.md': Provides an overview for all files included in the project
 - 'tidydata.txt': A text file containing the output data from analysis.
 - 'variablelist.txt': A text file containing a list of variables in the processed data
 
