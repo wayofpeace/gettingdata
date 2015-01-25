@@ -1,18 +1,30 @@
 ==================================================================
-CODEBOOK
+SMARTPHONE DATA ANALYSIS CODEBOOK
 ==================================================================
 
-The dataset is structure by cohorts with two keys: activity and subject.
+Leveraging raw data from a Smartphone study, this script creates a tidy dataset.
 
+The programming steps taken in the associted R script are:
+
+1 Merge the provided training and the test sets to create one data set.
+2 Extract the measurements on the mean and standard deviation for each measurement. 
+3 Create descriptive activity labels to name each of the activities in the data set
+4 Labels the data set with descriptive variable names using camelCase 
+5 From the data set in step 4, creates a second, independent tidy data set 
+     with the average of each variable for each of 6 activities and 30 subjects
+
+The tidy dataset is structured by cohorts with two keys: activity and subject.  
+
+The variables are described as follows:
 =====================================================================================
 activity 
 =====================================================================================
-	Numeric identifier indicating the volunteer's physical activity corresponding to 
-  recorded measurements.  
+activity is a numeric identifier indicating the volunteer's physical activity corresponding to 
+  the recorded measurements.  
 
   Value labels are:
-	1 WALKING
-	2 WALKING_UPSTAIRS
+  1 WALKING
+  2 WALKING_UPSTAIRS
   3 WALKING_DOWNSTAIRS
   4 SITTING
   5 STANDING
@@ -21,11 +33,15 @@ activity
 =====================================================================================
 subject
 =====================================================================================
-	Numeric identifier for one of 30 subject volunteers
+subject is a numeric identifier for each of 30 subject volunteers
+
+Variable range 1 to 30
 
 =====================================================================================
 Mnemonics for other variables in the dataset are a composite of several components:
-  <Domain><Acceleration><Gauge><Statistic><Jerk Signal?><Magnitude 3D signals?><Axis>
+
+<Domain><Acceleration><Gauge><Statistic><Jerk Signal?><Magnitude 3D signals?><Axis>
+
 =====================================================================================
 
   where the allowable values for each component are:
@@ -62,11 +78,13 @@ Mnemonics for other variables in the dataset are a composite of several componen
 Example of variable names and interpretation:
 =============================================
 
-  Variable name: fBodyAcc.mean.X	
-    Frequency-domain	
-    Body acceleration signal	
-    Accelerometer	
-    Mean across observations			
+Variable name: fBodyAcc.mean.X	
+
+This variable corresponsds to measurements taken from the   
+    Frequency-domain with 
+    Body acceleration signal using the 
+    Accelerometer summarized by taking the	
+    Mean across observations along the 		
     X-axis
 
 ===============================
