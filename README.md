@@ -21,13 +21,23 @@ BY wayofpeace@github.com
 The project includes the following files:
 =========================================
 
-- 'run_analysis.R": Processes the data provided in test and training data sets.  
-- 'CODEBOOK.txt': Codebook for the variables in the processed data set created.
 - 'README.md': Provides an overview for all files included in the project
-- 'tidydata.txt': A text file containing the output data from analysis.
+- 'run_analysis.R": R script that processes the Smartphone data provided and outputs the tidydata.txt dataset   
+- 'CODEBOOK.txt': Codebook for the variables in the processed tidydata.txt data set
+- 'tidydata.txt': A text file containing the output data from the analysis.
 - 'variablelist.txt': A text file containing a list of variables in the processed data
+- The included '/UCI HAR Dataset' folder contains the raw data and supporting files for the project.
 
-The included '/UCI HAR Dataset' folder contains the raw data and supporting files for the project.
+The programming steps taken in the associated run_analysis.R script are:
+
+1 Merge the provided training and the test sets to create one data set.
+2 Extract the measurements on the mean and standard deviation for each measurement. 
+3 Create descriptive activity labels to name each of the activities in the data set
+4 Labels the data set with descriptive variable names using camelCase 
+5 From the data set in step 4, creates a second, independent tidy data set 
+     with the average of each variable for each of 6 activities and 30 subjects
+
+The tidy dataset is structured by cohorts with two keys: activity and subject.  
 
 
 ===============================================================================
